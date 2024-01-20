@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* STYLE START */
+
+.css-text-underline .first-headng span {
+    text-decoration: underline;
+
+    /* Now iam changing the underline color using a css property */
+    /* this property change the underline height */
+    text-decoration-thickness: 10px;
+
+    /* also we change the underline color using this porperty */
+    text-decoration-color: blue;
+
+    /* can we add hover on this text underline, Yes we can add hover on this text underline color*/
+    transition: text-decoration-color 1s;
+
+    /* we also add some style on underline that inbuild in thsi css property */
+    text-decoration-style: dotted;
+
+    /* we also positoning it */
+    text-underline-offset: 10px;
+}
+
+.css-text-underline .secondary-heading span {
+    /* we adding all proprty in one property that is */
+    text-decoration: underline solid 20px blue;
+}
+
+.css-text-underline span:hover {
+    /* we are adding hover on this text */
+    text-decoration-color: black;
+}
